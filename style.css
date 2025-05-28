@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  header {
+    position: fixed;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  img {
+    width: 190px;
+    position: relative;
+    top: 25px;
+    left: 65px;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    top: 40px;
+    left: 200px;
+    gap: 40px;
+  }
+  svg {
+    position: relative;
+    top: 7px;
+
+    width: 17px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #222;
+    font-family:  sans-serif;
+    /* font-weight: 100; */
+    /* font-size:smaller; */
+    font-size: 15px;
+    width: fit-content;
+  }
+  main {
+    position: relative;
+  }
+
+
+ 
+
+ 
+
+ 
+
+
+.text-content{
+    display: flex;  
+    
+    justify-content: center;
+}
+
+.heading1{
+   
+    
+    
+    position: relative;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+    top : 164px;
+    font-size: 50px;
+}
+
+section div span {
+    font-weight: bolder;
+
+}
+
+.image{
+    position: relative;
+    top: 0px;
+    left: 15px;
+    display: inline-flex;
+    width: 118px;
+}
+
+.text{
+    font-family: serif;
+    position: relative;
+    top: 200px;
+    left: 152px;
+    font-size: 25px;
+    width: 900px;
+}
+
+.text span{
+    position: relative;
+    left: 321px;
+    
+}
+
+.download-btn{
+    position: relative;
+    top: 230px;
+    left: 460px;
+    color: white;
+    padding: 17px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00b6d1;
+
+    font-family:  sans-serif;
+    font-weight: bold;
+}
