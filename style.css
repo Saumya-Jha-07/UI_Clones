@@ -3,7 +3,7 @@
   margin: 0;
 }
 header {
-  position: fixed;
+  position: relative;
 }
 
 nav {
