@@ -17,13 +17,21 @@ img {
   left: 65px;
 }
 
+.by {
+  position: relative;
+  top: 67px;
+  left: -17px;
+  width: 87px;
+  height: 13px;
+}
+
 ul {
   display: flex;
   list-style-type: none;
   position: relative;
   top: 40px;
-  left: 200px;
-  gap: 40px;
+  left: 150px;
+  gap: 35px;
 }
 svg {
   position: relative;
@@ -132,7 +140,6 @@ small {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  
 
   position: relative;
   top: 279px;
@@ -142,7 +149,8 @@ small {
 
   /* background-color: red; */
 
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .eng {
@@ -166,7 +174,7 @@ small {
   padding-top: 0%;
 }
 
-.deu{
+.deu {
   grid-column: 2/3;
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -187,7 +195,7 @@ small {
   padding-top: 0%;
 }
 
-.ita{
+.ita {
   grid-column: 3/4;
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -208,7 +216,7 @@ small {
   padding-top: 0%;
 }
 
-.esp{
+.esp {
   grid-column: 1/2;
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -229,7 +237,7 @@ small {
   padding-top: 0%;
 }
 
-.fran{
+.fran {
   grid-column: 2/3;
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -250,7 +258,7 @@ small {
   padding-top: 0%;
 }
 
-.portu{
+.portu {
   grid-column: 3/4;
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -271,37 +279,36 @@ small {
   padding-top: 0%;
 }
 
-.bit-dnd{
+.bit-dnd {
   background-color: #5cb85c;
   color: white;
   border-radius: 6px;
   padding: 6px 12px;
   border: none;
-  
+
   font-weight: 600;
 }
 
-.ppl{
-  font-weight:normal;
+.ppl {
+  font-weight: normal;
   font-size: small;
 }
 
-.black{
+.black {
   background-color: #222;
   width: 100vw;
-  height: 600px;
+  height: 700px;
 
   position: relative;
   top: 500px;
 }
 
-.upper{
+.upper {
   display: flex;
   justify-content: center;
-  
 }
 
-.signUp-text{
+.signUp-text {
   color: white;
   /* background-color: red; */
 
@@ -312,23 +319,21 @@ small {
   padding-left: 20px;
 }
 
-.signUp-text h2{
-  font-weight:400;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.signUp-text h2 {
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
   margin-bottom: 20px;
 }
 
-.para{
+.para {
   width: 400px;
   font-family: ui-serif;
   font-size: 16px;
   font-weight: 100;
-  
-  
 }
 
-.signUp-card{
+.signUp-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -339,7 +344,7 @@ small {
   border: none;
   border-radius: 15px;
 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
   width: 300px;
   height: 210px;
@@ -349,12 +354,12 @@ small {
   left: -10px;
 }
 
-.subs{
+.subs {
   color: #00b6d1;
   font-weight: 400;
 }
 
-.signUp-btn{
+.signUp-btn {
   border: none;
   border-radius: 6px;
   background-color: #00b6d1;
@@ -362,31 +367,60 @@ small {
 
   font-weight: bolder;
   font-size: 16px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
   width: 300px;
   height: 90px;
   padding: 10px;
-
 }
 
-.inp{
+.inp {
   display: flex;
   flex-direction: column;
 
   gap: 2px;
 }
 
-.inp label{
-  font-weight:400;
+.inp label {
+  font-weight: 400;
   font-size: 14px;
 
   position: relative;
   left: 80px;
 }
 
-.inp input{
+.inp input {
   border: 1px solid #d4cfcf;
   width: 300px;
   height: 50px;
+}
+
+.lower {
+  color: #fff;
+  font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+
+  position: relative;
+  top: 167px;
+  left: 147px;
+
+  display: inline-flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.one {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.four{
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.license-link , .MSI-link{
+  
+  font-weight: 400;
+  color: #00b6d1;
 }
