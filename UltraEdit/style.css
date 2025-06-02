@@ -434,7 +434,7 @@ footer{
   top: 500px;
 
   width: 100vw;
-  height: 500px;
+  height: 550px;
 }
 
 
@@ -571,14 +571,50 @@ left: -10px;
 .subs{
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
-  font-size: 16px;
+  font-weight: bolder;
+  font-size: 13px;
 
   width: 190px;
-  padding: 8px 12px;
+  padding: 10px 12px;
 
   background-color: #00b6d1;
 
   border: none;
   border-radius: 5px;
+}
+
+.bottom img{
+  width: 160px;
+
+  position: relative;
+  top: 10px;
+  left: 174px;
+}
+
+.copyright{
+  position: relative;
+  top: 30px;
+  left: 175px;
+
+  font-size: smaller;
+}
+
+.icons{
+  
+  width: 25vw;
+ 
+
+  display: flex;
+  justify-content: space-between;
+
+  position: relative;
+  top: -55px;
+  left: 870px;
+
+}
+
+.icons svg{
+  width: 100%;
+  padding: 0px;
+  height: 22px;
 }
