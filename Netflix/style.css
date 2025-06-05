@@ -40,10 +40,22 @@
 .card{
     width: 40vw;
     height: 60vh;
-    background-color: rgba(1, 1, 1, 0.7);
+    background-color: rgba(0, 0, 0, 0.858);
     /* z-index: 1; */
 
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     
+}
+
+
+.card h2{
+    position: relative;
+    left: 40px;
 }
 
 .bottom{
@@ -51,3 +63,11 @@
     height: 20vh;
     width: 100vw;
 }  
+
+
+input{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.582);
+    width: 400px;
+    margin: 10px 40px ;
+}
