@@ -38,7 +38,7 @@
 }
 
 .card{
-    width: 40vw;
+    width: 35vw;
     height: 60vh;
     background-color: rgba(0, 0, 0, 0.858);
     /* z-index: 1; */
@@ -48,14 +48,16 @@
 
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    
+    /* gap: 10px; */
+    /* padding: 18px; */
 }
 
 
 .card h2{
     position: relative;
     left: 40px;
+    top: 20px;
+    margin-bottom: 35px;
 }
 
 .bottom{
@@ -64,10 +66,33 @@
     width: 100vw;
 }  
 
+.signIn{
+    margin-left: 40px;
+    width: 370px;
+    padding: 15px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    color: white;
+    font-family:  sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.signIn:hover {
+    background-color: rgb(227, 0, 0);
+}
+
 
 input{
-    padding: 10px;
+    padding: 18px;
+    font-size: 16px;
     background-color: rgba(0, 0, 0, 0.582);
-    width: 400px;
+    width: 330px;
     margin: 10px 40px ;
+    border: 1px solid rgb(84, 76, 76);
+    border-radius: 4px;
+
+    /* margin-top: 30px; */
 }
