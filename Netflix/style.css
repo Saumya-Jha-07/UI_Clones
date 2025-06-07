@@ -13,9 +13,9 @@
 
     opacity:0.9;
 
-    
+    /* overflow:hidden; */
 
-    height: 80vh;
+    height: 90vh;
     width: 100vw;
 }
 
@@ -34,30 +34,33 @@
 .flex{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-}
+    align-items: center;
 
-.card{
     width: 35vw;
-    height: 60vh;
+    height: 80vh;
     background-color: rgba(0, 0, 0, 0.858);
     /* z-index: 1; */
 
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
-    /* gap: 10px; */
-    /* padding: 18px; */
+
+    position: relative;
+    left: 450px;
+    top: 20px;
 }
 
 
-.card h2{
+
+
+
+.card-upper h2{
     position: relative;
     left: 40px;
     top: 20px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 .bottom{
@@ -84,6 +87,40 @@
     background-color: rgb(227, 0, 0);
 }
 
+.code{
+    margin-left: 40px;
+    width: 370px;
+    padding: 15px;
+    background-color: rgb(143, 133, 133);
+    border: 1px solid black;
+    border-radius: 5px;
+
+    color: white;
+    font-family:  sans-serif;
+    font-size: medium;
+    font-weight: 15p6;
+
+    margin-top: 10px;
+}
+
+.forgot{
+    text-decoration: underline;
+    position: relative;
+    top: 8px;
+    left: 160px;
+}
+
+.remember-me input{
+    position: relative;
+    top: 10px;
+    left: -155px;
+}
+
+.remember-me span{
+    position: relative;
+    top: -18px;
+    left: 70px;
+}
 
 input{
     padding: 18px;
@@ -95,4 +132,19 @@ input{
     border-radius: 4px;
 
     /* margin-top: 30px; */
+}
+
+.or{
+    /* background-color: green; */
+    color: white;
+
+    width: 50px;
+
+    position: relative;
+    top: 5px;
+
+    font-size: medium;
+    font-weight: 400;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
