@@ -15,7 +15,7 @@
 
     /* overflow:hidden; */
 
-    height: 90vh;
+    height: 110vh;
     width: 100vw;
 }
 
@@ -41,6 +41,10 @@
     /* width: 800px; */
 }
 
+.par{
+    max-width: 350px;
+}
+
 
 .svg{
     fill: rgb(229, 9, 20);
@@ -58,7 +62,7 @@
     align-items: center;
 
     width: 35vw;
-    height: 80vh;
+    height: 90vh;
     background-color: rgba(0, 0, 0, 0.858);
     /* z-index: 1; */
 
@@ -84,14 +88,25 @@
     margin-bottom: 20px;
 }
 
-.bottom{
+body{
+
     background-color: #222;
-    height: 20vh;
-    width: 100vw;
+}
+
+.bottom{
+    color: rgb(209, 205, 205);
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+
+    height: 40vh;
 }  
 
 .signIn{
     margin-left: 40px;
+    margin-top: 13px;
+    /* margin-bottom: 10px; */
     width: 370px;
     padding: 10px;
     background-color: red;
@@ -106,6 +121,17 @@
 
 .signIn:hover {
     background-color: rgb(227, 0, 0);
+}
+
+
+
+.btn{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+    background-color: #222;
+    color: white;
 }
 
 .code{
@@ -168,4 +194,23 @@ input{
     font-weight: 400;
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.bottom{
+    position: relative;
+    left: -380px;
+    flex-direction: column;
+    gap: 30px;
+
+    /* align-items: center; */
+    margin-top: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}
+
+
+li {
+    list-style-type: none;
 }
