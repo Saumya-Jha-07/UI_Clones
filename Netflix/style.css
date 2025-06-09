@@ -199,9 +199,12 @@ input{
 
 .bottom{
     position: relative;
-    left: -380px;
-    flex-direction: column;
-    gap: 30px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -65px;
+
 
     /* align-items: center; */
     margin-top: 80px;
