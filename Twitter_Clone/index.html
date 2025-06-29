@@ -19,16 +19,15 @@
       @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
     </style>
   </head>
-  <body class="bg-black">
-    <div class="container h-lvh w-lvw flex">
-      <div class="first h-lvh w-1/7">
+  <body class="bg-black ">
+    <div class="container h-lvh w-lvw flex ">
+
+      
+
+      <div class="first fixed top-3 -left-8 h-screen w-1/6  ">
         <ul class="flex flex-col justify-end items-end pt-2 pr-6 gap-y-5">
           <li>
-            <img
-              src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?ga=GA1.1.373620167.1744956619&semt=ais_hybrid&w=740"
-              class="w-10"
-              alt=""
-            />
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="w-7.5 relative -left-1 invert"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
           </li>
           <li>
             <svg
@@ -133,10 +132,11 @@
           </li>
         </ul>
       </div>
+      
+      <div class="border border-indigo-950 relative left-45"></div>
+      
 
-      <div class="border border-indigo-950"></div>
-
-      <div class="second h-lvh w-4/8 relative">
+      <div style="scrollbar-width: none;" class="second h-lvh w-1/2 fixed overflow-auto left-45">
         <div
           class="flex text-white justify-around items-center font-semibold my-4 sticky"
         >
@@ -156,15 +156,18 @@
             <span class="text-gray-500 mt-5 ml-3 text-[20px]">
               What's happening?
             </span>
+
+            
           </div>
+        
         </div>
 
         <div class="border border-indigo-950"></div>
       </div>
 
-      <div class="border border-indigo-950"></div>
+      <div class="border border-indigo-950 relative left-205"></div>
 
-      <div class="third h-lvh w-5/14">
+      <div style="scrollbar-width: none;" class="third fixed top-0 right-23 overflow-auto  h-screen w-[28%]">
         <div
           class="mt-2 w-auto mx-7 p-1.5 text-white border border-indigo-900 rounded-4xl flex items-start"
         >
@@ -285,71 +288,77 @@
           </div>
         </div>
 
-        <div class="mx-8  mt-6 rounded-2xl w-auto h-[200px] border border-indigo-950 text-white">
+          <div class="mx-8  mt-6 rounded-2xl w-auto h-[300px] border border-indigo-950 text-white " >
 
-          <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-4 justify-around mx-3.5 my-3">
 
-            <h1 class="text-[21px] font-[700]">Who to follow</h1>
+              <h1 class="text-[21px] font-[700]">Who to follow</h1>
 
-            <div class="flex flex-col gap-y-5">
-              
-              <div class="flex justify-between">
-
-                <div class="flex gap-x-2">
-                  <div class="w-10 h-10">
-                    <img src="https://pbs.twimg.com/profile_images/1585779196948664320/7ZBXg_pv_400x400.jpg" class="object-contain rounded-2xl" alt="">
-                  </div>
-                <div>
-                  <h1>David Goggins</h1>
-                  <h2>@davidgoggins</h2>
-                </div>
-
-                </div>
-
-                <button class="bg-white text-black rounded-lg p-0.5">Follow</button>
+              <div class="flex flex-col gap-y-5">
                 
-              </div>
-              <div class="flex justify-between">
+                <div class="flex justify-between items-center">
 
-                <div class="flex gap-x-2">
-                  <div class="w-10 h-10">
-                    <img src="https://pbs.twimg.com/profile_images/1585779196948664320/7ZBXg_pv_400x400.jpg" class="object-contain rounded-2xl" alt="">
+                  <div class="flex gap-x-2 items-center">
+                    <div class="w-10 h-10 rounded-4xl bg-[url('https://pbs.twimg.com/profile_images/1585779196948664320/7ZBXg_pv_400x400.jpg')] bg-cover bg-center ">
+                    </div>
+                  <div class="flex flex-col justify-center relative">
+                    <h1 class="font-[650] text-white text-shadow-white">David Goggins</h1>
+                    <h3 class="text-[16px] text-gray-500 ">@davidgoggins</h3>
                   </div>
-                <div>
-                  <h1>David Goggins</h1>
-                  <h2>@davidgoggins</h2>
-                </div>
 
-                </div>
-
-                <button class="bg-white text-black rounded-lg p-0.5">Follow</button>
-
-              </div>
-              <div class="flex justify-between">
-
-                <div class="flex gap-x-2">
-                  <div class="w-10 h-10">
-                    <img src="https://pbs.twimg.com/profile_images/1585779196948664320/7ZBXg_pv_400x400.jpg" class="object-contain rounded-2xl" alt="">
                   </div>
-                <div>
-                  <h1>David Goggins</h1>
-                  <h2>@davidgoggins</h2>
-                </div>
 
+                  <div class="bg-white text-gray-950 px-4 h-8 pt-0.5 rounded-3xl font-[600]">Follow</div>
+                  
                 </div>
+                <div class="flex justify-between items-center">
 
-                <button class="bg-white text-black rounded-lg p-0.5">Follow</button>
+                  <div class="flex gap-x-2 items-center">
+                    <div class="w-10 h-10 rounded-4xl bg-[url('https://pbs.twimg.com/profile_images/1585779196948664320/7ZBXg_pv_400x400.jpg')] bg-cover bg-center ">
+                    </div>
+                  <div class="flex flex-col justify-center relative">
+                    <h1 class="font-[650] text-white text-shadow-white">David Goggins</h1>
+                    <h3 class="text-[16px] text-gray-500 ">@davidgoggins</h3>
+                  </div>
+
+                  </div>
+
+                  <div class="bg-white text-gray-950 px-4 h-8 pt-0.5 rounded-3xl font-[600]">Follow</div>
+                  
+                </div>
+                <div class="flex justify-between items-center">
+
+                  <div class="flex gap-x-2 items-center">
+                    <div class="w-10 h-10 rounded-4xl bg-[url('https://pbs.twimg.com/profile_images/1585779196948664320/7ZBXg_pv_400x400.jpg')] bg-cover bg-center ">
+                    </div>
+                  <div class="flex flex-col justify-center relative">
+                    <h1 class="font-[650] text-white text-shadow-white">David Goggins</h1>
+                    <h3 class="text-[16px] text-gray-500 ">@davidgoggins</h3>
+                  </div>
+
+                  </div>
+
+                  <div class="bg-white text-gray-950 px-4 h-8 pt-0.5 rounded-3xl font-[600]">Follow</div>
+                  
+                </div>
 
               </div>
+
+              <h3 class="text-sky-500 mt-2">Show more</h3>
 
             </div>
+            
+          </div>
 
-            <h3 class="text-sky-500 mt-2">Show more</h3>
+          <div class="h-[150px] border-2 border-red-500  mx-8 mt-5 pb-10">
 
           </div>
-          
+
         </div>
+
       </div>
+
     </div>
+
   </body>
-</html>
+</ht
